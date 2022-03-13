@@ -11,8 +11,8 @@ export default function Layout({ children }) {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
       </Head>
-      <main className='py-10'>
-        <div className="container px-3">
+      <main className=''>
+        <div className="px-3">
           {children}
         </div>
       </main>
