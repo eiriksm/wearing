@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="">
       <Head>
-        <title>Silje’s Bæreveiledning</title>
+        <title>Bæreveiledning med Silje</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -26,14 +26,11 @@ export default function Home() {
           <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
               <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                <span className="block xl:inline">Siljes</span>{' '}
-                <span className="block text-indigo-600 xl:inline">Bæreveiledning</span>
+                <span className="block xl:inline">Bæreveiledning med </span>{' '}
+                <span className="block text-indigo-600 xl:inline">Silje</span>
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
               Bæretøy er et lite stykke magi som gjør at du kan trygge og varme, spise og luftes.
-
-<p className='py-4'>Organiser ditt barselliv i dag med Silje’s Bæreveiledning.</p>
-
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
@@ -66,20 +63,23 @@ export default function Home() {
       </div>
     </div>
     <div className='bg-slate-200/100 p-5'>
-    <div className='md:grid md:grid-cols-4 my-12 gap-4'>
+    <div className='md:grid md:grid-cols-4 my-12 gap-12'>
       <div></div>
         <div>
           <h2 className='text-xl pb-5'>Hva er bæring</h2>
-          <p>Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-                fugiat veniam occaecat fugiat aliqua.</p>
+          <p>Følelsen av et barn som sovner på deg. Når man kjenner at kroppen til barnet skifter vekt, blir sovetung. Det er som om noe magisk er i spill. For meg var denne magien bæretøy. Bæretøy tilrettelegger for nærhet, som frigjør oksitosin, som igjen forsterker tilknytning. Og bæretøy er utrolig praktisk! Du kan varme og trygge mens du tar deg ei brødskive, går en tur eller leverer i barnehagen. Det kan være en hjelpende hånd når barnet får tenner, trenger trøst eller ikke får sove. Det kan være et lettpakkelig transportmiddel, det kan ta deg dit vognen ikke kan, og det kan gi deg frie hender. Og så kan du på en enklere måte få ditt barn hjem, når de små føttene blir for slitne til å bære seg selv. </p>
         </div>
         <div>
-          <p>Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-                fugiat veniam occaecat fugiat aliqua.</p>
-                <p>
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-                fugiat veniam occaecat fugiat aliqua.
-                </p>
+        <h2 className='text-xl pb-5'>En bæreveileder kan</h2>
+          <ul className='list-disc'>
+
+          <li>Gi deg en introduksjon til ergonomisk bæring og bæretøy.</li>
+<li>Tilpasse det bæretøyet du har eller hjelpe deg å velge riktig type bæretøy.</li>
+<li>Hjelpe deg å bli trygg på å bære foran eller på rygg.</li>
+<li>Gi deg verktøy til å gjøre barnet ditt trygg på å bli bært.</li>
+<li>Hjelpe deg med å identifisere og justere (bærerelaterte) utfordringer dere møter på.</li>
+
+          </ul>
         </div>
         <div></div>
       </div>
